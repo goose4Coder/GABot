@@ -8,6 +8,7 @@ public class CardDto {
     protected long id;
     protected String name;
     protected String imageURL;
-    protected boolean foil;
-    protected int amount;
+    public String getSlug(){
+        return name;
+    }
 }
